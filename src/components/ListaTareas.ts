@@ -113,4 +113,4 @@ export class ListaTareas extends HTMLElement {
   }
 }
 
-customElements.define('lista-tareas', ListaTareas);
+export default ListaTareas;

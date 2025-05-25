@@ -1,4 +1,4 @@
-import { auth } from '../firebase';
+import { auth } from '../firebase/firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 
 export class InicioSesion extends HTMLElement {
@@ -54,4 +54,4 @@ export class InicioSesion extends HTMLElement {
   }
 }
 
-customElements.define('inicio-sesion', InicioSesion);
+export default InicioSesion;

@@ -1,4 +1,4 @@
-import { auth } from '../firebase';
+import { auth } from '../firebase/firebase';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 
 export class RegistroSesion extends HTMLElement {
@@ -54,4 +54,4 @@ export class RegistroSesion extends HTMLElement {
   }
 }
 
-customElements.define('registro-sesion', RegistroSesion);
+export default RegistroSesion;
